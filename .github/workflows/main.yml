@@ -25,3 +25,5 @@ jobs:
       uses: aws-actions/aws-codebuild-run-build@v1
       with:
         project-name: repo2
+    - name: tes
+      run: uname -a
